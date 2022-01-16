@@ -99,7 +99,7 @@ public class FloatingVideoService extends Service {
                 }
             });
             try {
-                mediaPlayer.setDataSource(this, Uri.parse("https://raw.githubusercontent.com/dongzhong/ImageAndVideoStore/master/Bruno%20Mars%20-%20Treasure.mp4"));
+                mediaPlayer.setDataSource(this, Uri.parse("http://mirror.aarnet.edu.au/pub/TED-talks/911Mothers_2010W-480p.mp4"));
                 mediaPlayer.prepareAsync();
             }
             catch (IOException e) {
